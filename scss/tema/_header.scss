@@ -1,0 +1,22 @@
+#player-video{
+
+	h2{
+		font-weight: $normal;
+		span{
+			font-weight: $bold;
+		}
+	}
+	figure{
+		margin:0;
+		background-image: url(../img/deporte.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		padding: 0;
+		height: 135px;
+		width: 100%;
+		&.amarillo{
+			background: yellow;
+		}
+	}
+}
